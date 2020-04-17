@@ -32,8 +32,8 @@
     font-family: 'FuturaPT-Bold';
     src: url('/fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Bold.eot');
     src: url('/fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Bold.eot?eifix') format('embedded-opentype'),
-    url('/fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Bold.woff') format('woff'),
-    url('/fonts/FuturaPT/FuturaPT-Book/FuturaPT-Bold.ttf') format('truetype');
+        url('/fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Bold.woff') format('woff'),
+        url('/fonts/FuturaPT/FuturaPT-Book/FuturaPT-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }

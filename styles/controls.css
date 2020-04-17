@@ -1,0 +1,11 @@
+.button {
+    appearance: none;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.button_icon_m {
+    height:40px;
+    width:40px;
+}

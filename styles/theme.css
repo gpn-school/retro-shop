@@ -1,5 +1,8 @@
 .theme {
-    --font: 'Futura PT', 'Roboto', Arial, sans-serif;
+    --font-light: 'FuturaPT-Light', 'Roboto', Arial, sans-serif;
+    --font-book: 'FuturaPT-Book', 'Roboto', Arial, sans-serif;
+    --font-medium: 'FuturaPT-Meduim', 'Roboto', Arial, sans-serif;
+    --font-bold: 'FuturaPT-Bold', 'Roboto', Arial, sans-serif;
 
     --text-size-2xs: 12px;
     --text-size-xs: 14px;
@@ -17,15 +20,14 @@
     --color-text-brand: #315182;
     --color-text-primary: #000;
     --color-text-secondary: #5B5B5B;
-    --color-text-gost: #AFAFAF;
+    --color-text-ghost: #AFAFAF;
 
     --color-link-dark: rgba(49,81,130,1);
     --color-link-light: rgba(49,81,130,0.3);
 
-    --color-control-brand-dark: rgba(43,125,61,1);
-    --color-control-brand-light: rgba(43,125,61,0.12);
+    --color-control: rgba(43,125,61,1);
+    --color-control-substrate: rgba(43,125,61,0.12);
     
     --color-border-brand: #2B7D3D;
     --color-border-secondary: #AFAFAF;
-
 }

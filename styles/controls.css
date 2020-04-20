@@ -1,11 +1,13 @@
 .button {
-    appearance: none;
-    box-sizing: border-box;
     display: inline-flex;
     justify-content: center;
+    box-sizing: border-box;
+    border: none;
+    background: none;
 }
 
 .button_icon_m {
     height:40px;
     width:40px;
 }
+

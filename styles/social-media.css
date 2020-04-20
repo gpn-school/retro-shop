@@ -12,3 +12,8 @@
 .social-media__item:not(:last-child) {
     margin-right:12px;
   }
+  @media (max-width: 768px) {
+     .social-media {
+        display: none;
+     } 
+  }

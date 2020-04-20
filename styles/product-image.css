@@ -1,0 +1,15 @@
+.product-image { 
+    display: flex;
+}
+
+.product-image__image {
+    margin: auto;
+    max-width: 70%;
+}
+
+@media (max-width: 768px) {
+
+    .product-image__image {
+       max-height: 50%;
+    } 
+ }

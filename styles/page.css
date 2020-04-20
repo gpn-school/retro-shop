@@ -1,14 +1,45 @@
 .page {
-    padding: 50px 100px 50px 100px;
-    height: 100vh;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #EBF1FA;
 }
+
 .page__container {
     margin: auto;
+    padding: 50px 100px 50px 100px;
+    overflow: hidden;
+    height: 100vh;
+    // position: relative;
+    
 }
 .page__content {
     display: grid;
-    // grid-template-columns: repeat(12, 1fr);
     grid-template-columns: 1fr 1fr;
-    
+}
+
+.page__circle{
+    position:absolute;
+    top: -50%;
+    left: -50%;
+    width: 115%;
+    height: 200%;
+    z-index: -1; 
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .page__container {
+     padding: 0; 
+     overflow: visible;
+    }
+
+    .page__content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .page__circle {
+        display: none;
+    }
 }

@@ -1,0 +1,9 @@
+.section {
+
+}
+
+.section_flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}

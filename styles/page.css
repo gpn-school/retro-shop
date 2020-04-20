@@ -9,7 +9,8 @@
     padding: 50px 100px 50px 100px;
     overflow: hidden;
     height: 100vh;
-    // position: relative;
+    position: relative;
+    box-sizing: border-box;
     
 }
 .page__content {

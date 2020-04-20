@@ -1,0 +1,30 @@
+.title {
+    padding-left: 18px;
+    margin-bottom: 0;
+    margin-right: 120px;
+    font-size: var(--text-size-xl);
+    font-family: var(--font-medium);
+    line-height: 1.5em;
+    color: var(--color-text-brand);
+  }
+  
+  .subtitle {
+    padding-left: 18px;
+    margin-top: 2em;
+    margin-bottom: 0;
+    font-size: var(--text-size-2xs);
+    font-family:var(--font-light);
+    text-transform: uppercase;
+    line-height: 1.5em;
+    color: var(--color-text-secondary);
+  }
+
+  .description {
+    padding-left: 18px;
+    margin-bottom: 2em;
+    margin-right: 170px;
+    font-size: var(--text-size-2xs);
+    font-family: var( --font-book);  
+    line-height: 1.5em;
+    color: var(--color-text-brand);
+  }

@@ -1,0 +1,56 @@
+.button {
+    display:inline-flex;
+    justify-content: center;
+}
+
+  .button_view_primary{
+    font-size: 14px;
+    color: var(--color-button-text-primary);
+    background-color: var( --color-bg-default);
+}
+
+  .button_view_secondery {
+    background: none;
+    border: none;
+    color: var(--color-button-text-primary);
+}
+
+.button_size_l {
+    height: 60px;
+    width: 220px;
+}
+  
+  .button_size_m {
+    height: 40px;
+    width: 40px;
+}
+
+  .stats {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 24px;
+}
+
+.social-media {
+    position: absolute;
+    right: 32px;
+    top: 18%;
+    width: 0;
+    display: flex;
+    justify-content: center;
+    transform: rotate(90deg);
+}
+  
+.social-media__link{
+    padding: 8px 8px;
+    font-weight: bold;
+    font-size: var(--text-size-2xs);
+    font-family: var( --font-medium); 
+    text-decoration: none;
+    background: transparent;
+    color: var(--color-text-brand);
+}
+  

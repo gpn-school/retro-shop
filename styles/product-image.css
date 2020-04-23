@@ -1,5 +1,6 @@
 .product-image { 
     display: flex;
+    grid-column: span 2;
 }
 
 .product-image__image {

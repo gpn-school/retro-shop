@@ -11,3 +11,9 @@
     width:40px;
 }
 
+.link_dashed {
+    color:var(--color-link-light);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--color-link-light);
+    font-size: var(--text-size-m);
+}

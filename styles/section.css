@@ -2,8 +2,21 @@
 
 }
 
+
 .section_flex {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+}
+
+.section_flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    .section_flex {
+        display: block;
+    }
+
 }

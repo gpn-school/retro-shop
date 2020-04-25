@@ -8,7 +8,7 @@
 .burger::before, .burger::after {
     content:'';
     position: absolute;
-    width: 24px;
+    width: 30px;
     height: 2px;
     background-color: currentColor;
     border-radius: 1px;

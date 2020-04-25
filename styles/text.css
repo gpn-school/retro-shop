@@ -3,7 +3,7 @@
     margin-bottom: 0;
     margin-right: 120px;
     font-size: var(--text-size-xl);
-    font-family: var(--font-medium);
+    font-family: var(--font);
     line-height: 1.5em;
     color: var(--color-text-brand);
   }
@@ -13,7 +13,7 @@
     margin-top: 2em;
     margin-bottom: 0;
     font-size: var(--text-size-2xs);
-    font-family:var(--font-light);
+    font-family:var(--font);
     text-transform: uppercase;
     line-height: 1.5em;
     color: var(--color-text-secondary);
@@ -24,7 +24,7 @@
     margin-bottom: 2em;
     margin-right: 170px;
     font-size: var(--text-size-2xs);
-    font-family: var( --font-book);  
+    font-family: var( --font);  
     line-height: 1.5em;
     color: var(--color-text-brand);
   }

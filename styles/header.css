@@ -1,18 +1,19 @@
 .header {
-    padding: 24px 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-bg-brand-dark);
+    padding: 24px 18px;
+    background: transparent;
 }
 
-.header__side {
+.header__logo,
+.header__menu {
     display: flex;
     align-items: center;
 }
 
 .logo {
-    font-family: "Shrikhand";
+    font-family: "Shrikhand", 'Roboto', Arial, sans-serif;
     font-size: var(--text-size-l);
     color: var(--color-text-brand);
 }
@@ -23,15 +24,15 @@
 }
 
 .menu__item:not(:last-child) {
-    margin-right:8px;
+    margin-right: 8px;
 }
 
 .menu__list {
+    display: none;
+    align-items: center;
     padding: 0;
     margin: 0;
     margin-right: 24px;
-    display: none;
-    align-items: center;
     list-style-type: none;
 }
 
@@ -43,20 +44,11 @@
     text-decoration: none;
 }
 
-
-
 @media (min-width: 1200px) {
-
-    .side:not(:last-child) {
+    .counts {
         position: absolute;
         left: 50%;
-        margin-right: -50%;
     }
-
-    .menu__burger {
-          display: none;
-    }
-
     .menu__list {
         padding: 0;
         margin: 0;
@@ -65,5 +57,4 @@
         align-items: center;
         list-style-type: none;
     }
-
 }

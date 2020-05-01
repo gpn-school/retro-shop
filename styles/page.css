@@ -1,4 +1,50 @@
 .page {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    background-color: #EBF1FA;
+    font-family: var(--font);
+}
+
+.page__container {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: auto;
+    padding: 50px 100px 50px 100px;
+    overflow: hidden;
+    box-sizing: border-box; 
+    height: 100vh;
+}
+
+.page__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.page__circle {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 115%;
+    height: 200%;
+    z-index: -1; 
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+
+    .page__container {
+     padding: 0; 
+     overflow: visible;
+    }
+
+    .page__content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .page__circle {
+        display: none;
+    }
 }

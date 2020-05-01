@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'FuturaPT';
-    src: url('../fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Light.eot');
-    src: url('../fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Light.eot?eifix') format('embedded-opentype'),
-        url('../fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Light.woff') format('woff'),
-        url('../fonts/FuturaPT/FuturaPT-Book/FuturaPT-Light.ttf') format('truetype');
+    src: url('../fonts/FuturaPT/FuturaPT-Light/FuturaPT-Light.eot');
+    src: url('../fonts/FuturaPT/FuturaPT-Light/FuturaPT-Light.eot?eifix') format('embedded-opentype'),
+        url('../fonts/FuturaPT/FuturaPT-Light/FuturaPT-Light.woff') format('woff'),
+        url('../fonts/FuturaPT/FuturaPT-Light/FuturaPT-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FuturaPT';
-    src: url('../fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Book.eot');
-    src: url('../fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Book.eot?eifix') format('embedded-opentype'),
-        url('../fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Book.woff') format('woff'),
+    src: url('../fonts/FuturaPT/FuturaPT-Book/FuturaPT-Book.eot');
+    src: url('../fonts/FuturaPT/FuturaPT-Book/FuturaPT-Book.eot?eifix') format('embedded-opentype'),
+        url('../fonts/FuturaPT/FuturaPT-Book/FuturaPT-Book.woff') format('woff'),
         url('../fonts/FuturaPT/FuturaPT-Book/FuturaPT-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -30,10 +30,10 @@
 
 @font-face {
     font-family: 'FuturaPT';
-    src: url('../fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Bold.eot');
-    src: url('../fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Bold.eot?eifix') format('embedded-opentype'),
-        url('../fonts/FuturaPT/FuturaPT-Medium/FuturaPT-Bold.woff') format('woff'),
-        url('../fonts/FuturaPT/FuturaPT-Book/FuturaPT-Bold.ttf') format('truetype');
+    src: url('../fonts/FuturaPT/FuturaPT-Bold/FuturaPT-Bold.eot');
+    src: url('../fonts/FuturaPT/FuturaPT-Bold/FuturaPT-Bold.eot?eifix') format('embedded-opentype'),
+        url('../fonts/FuturaPT/FuturaPT-Bold/FuturaPT-Bold.woff') format('woff'),
+        url('../fonts/FuturaPT/FuturaPT-Bold/FuturaPT-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }

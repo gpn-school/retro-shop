@@ -1,15 +1,15 @@
 .button {
-    display:inline-flex;
+    display: inline-flex;
     justify-content: center;
 }
 
-  .button_view_primary{
+.button_view_primary {
     font-size: 14px;
     color: var(--color-button-text-primary);
     background-color: var( --color-bg-default);
 }
 
-  .button_view_secondery {
+.button_view_secondery {
     background: none;
     border: none;
     color: var(--color-button-text-primary);
@@ -19,13 +19,13 @@
     height: 60px;
     width: 220px;
 }
-  
-  .button_size_m {
+
+.button_size_m {
     height: 40px;
     width: 40px;
 }
 
-  .stats {
+.stats {
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -43,14 +43,33 @@
     justify-content: center;
     transform: rotate(90deg);
 }
-  
-.social-media__link{
+
+.social-media__link {
     padding: 8px 8px;
     font-weight: bold;
     font-size: var(--text-size-2xs);
-    font-family: var( --font); 
+    font-family: var( --font);
     text-decoration: none;
     background: transparent;
     color: var(--color-text-brand);
 }
-  
+
+.sthyn {
+    width: 300px;
+    background-color: var(--color-bg-default);
+}
+
+.link_with-icon_right,
+.link_with-icon_left {
+    display: inline-flex;
+    align-items: center;
+    font-family: var( --font);
+    color: var(--color-text-brand);
+    text-decoration: none;
+    padding-left: 18px;
+    margin: 0em 0em 1em 0em;
+}
+
+.link_with-icon_right .link__icon {
+    margin-left: 6px;
+}

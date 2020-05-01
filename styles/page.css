@@ -1,8 +1,7 @@
 section {
-    max-width: 950px;
     margin: 0 auto;
 }
-  
+
 .page {
     padding: 0;
     margin: 0;
@@ -23,8 +22,17 @@ section {
         margin-top: 80px;
         text-align: left;
     }
-    
-      .first-screen__cell {
+    .first-screen__cell {
         padding-right: 36px;
+    }
+    .first-screen__cell:nth-child(1) {
+        grid-row: span 1;
+    }
+    .first-screen__cell:nth-child(2) {
+        grid-row: span 2;
+        order: -1;
+    }
+    .first-screen__cell:nth-child(3) {
+        grid-row: span 1;
     }
 }

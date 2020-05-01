@@ -6,25 +6,34 @@
     font-family: var(--font);
     line-height: 1.5em;
     color: var(--color-text-brand);
-  }
-  
-  .subtitle {
+}
+
+.subtitle {
     padding-left: 18px;
     margin-top: 2em;
     margin-bottom: 0;
     font-size: var(--text-size-2xs);
-    font-family:var(--font);
+    font-family: var(--font);
     text-transform: uppercase;
     line-height: 1.5em;
     color: var(--color-text-secondary);
-  }
+}
 
-  .description {
+.description {
     padding-left: 18px;
     margin-bottom: 2em;
     margin-right: 170px;
     font-size: var(--text-size-2xs);
-    font-family: var( --font);  
+    font-family: var( --font);
     line-height: 1.5em;
     color: var(--color-text-brand);
-  }
+}
+
+.subtitle_link {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    margin: 1em 0em 1em 0em;
+    border-bottom: 1px var(--color-text-secondary);
+}

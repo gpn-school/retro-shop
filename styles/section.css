@@ -1,10 +1,12 @@
 .section {
 
 }
+
 .section_controls {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    margin-bottom: 12px;
 }
 
 .section-controls__favourite {
@@ -31,7 +33,6 @@
     display: flex;
     justify-content: flex-start;
 }
-
 
 @media (max-width: 768px) {
     .section_flex {

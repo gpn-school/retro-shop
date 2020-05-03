@@ -58,3 +58,9 @@
         list-style-type: none;
     }
 }
+
+@media (max-width: 768px) {
+    .header_product {
+        display: none;
+    }
+}

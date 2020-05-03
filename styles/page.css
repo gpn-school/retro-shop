@@ -47,4 +47,8 @@
     .page__circle {
         display: none;
     }
+
+    .page__header {
+        display: none;
+    }
 }

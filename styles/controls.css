@@ -11,6 +11,10 @@
     color: var(--color-link-dark);
 }
 
+.link_active {
+    color: var(--color-link-hover);
+}
+
 .link_medium {
     font-weight: 500;
 }
@@ -20,17 +24,17 @@
     text-transform: uppercase;
 }
 
-.link_secondary {
+.link_view_secondary {
     color: var(--color-link-light);
 }
 
-.link_secondary_dashed {
+.link_view_secondary-dashed {
     color: var(--color-link-light);
     border-bottom: 1px dashed var(--color-link-light);
     font-size: var(--text-size-m);
 }
 
-.link_secondary_dashed:hover {
+.link_view_secondary-dashed:hover {
     border-bottom: 1px dashed var(--color-link-hover);
 }
 
@@ -54,11 +58,11 @@ button:focus {
     background-color: var(--color-control-bg);
 }
 
-.button_view_seconadary {
+.button_view_secondary {
     color: var(--color-control-text);
 }
 
-.button_view_seconadary:hover {
+.button_view_secondary:hover {
     color: var(--color-control-hover)
 }
 

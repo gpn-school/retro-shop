@@ -70,8 +70,7 @@
 @media (max-width: 768px) {
     .info {
         padding: 60px 20px;
-        border-radius: 20px 20px 0 0;
-        background-color: #fff;
+  
     }
 
     .info__category {

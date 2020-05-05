@@ -80,7 +80,7 @@ button:focus {
 
 .button_only-icon:hover {
     color: var(--color-link-hover);
-    background: var(--color-bg-brand-light);
+    background: var(--color-control-bg-secondary-hover);
 }
 
 // .button_only-icon-xs {

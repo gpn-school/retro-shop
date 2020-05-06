@@ -1,50 +1,38 @@
+section {
+    max-width: 766px;
+    margin: 0 auto;
+  }
+
 .page {
     margin: 0;
     padding: 0;
-    background-color: #EBF1FA;
+    background-color: var(--color-bg-brand-dark);
     font-family: var(--font);
 }
 
 .page__container {
     position: relative;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    margin: auto;
     padding: 50px 100px 50px 100px;
-    overflow: hidden;
     box-sizing: border-box; 
     height: 100vh;
 }
 
 .page__content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 76vh;
 }
 
-.page__circle {
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 115%;
-    height: 200%;
-    z-index: -1; 
-    border-radius: 50%;
-    background-color: #fff;
-}
 
 @media (max-width: 768px) {
-
     .page__container {
-     padding: 0; 
-     overflow: visible;
+    padding: 0; 
     }
 
     .page__content {
         display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .page__circle {
-        display: none;
+        align-items: center;
+        flex-direction: column-reverse;  
+        height: fit-content;
     }
 }

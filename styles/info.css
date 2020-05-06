@@ -1,0 +1,23 @@
+.info {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: auto;
+}
+
+.info__category {
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--color-border-secondary);
+    font-size: var( --text-size-2xs);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+
+    .info {
+        display: block;
+    }
+
+}

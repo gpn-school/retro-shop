@@ -1,6 +1,6 @@
 .link {
     text-decoration: none;
-    font-size: var(--text-size-s);
+    font-size: var( --text-size-xs);
 }
 
 .link:hover {
@@ -10,6 +10,7 @@
 .link_view_primary {
     color: var(--color-link-dark);
 }
+
 
 .link_medium {
     font-weight: 500;
@@ -32,6 +33,34 @@
 
 .link_secondary_dashed:hover {
     border-bottom: 1px dashed var(--color-link-hover);
+}
+
+.link_secondary_strip {
+    color: var(--color-text-secondary);
+    font-size: var(--text-size-xs);
+}
+
+.link_secondary_strip:hover {
+    color: var(--color-link-hover);
+}
+
+.link_with-icon_right{
+    display: inline-flex;
+  }
+  
+.link__icon {
+    margin-left: 12px;
+  }
+
+.bool {
+    position: absolute;
+    left: 0px;
+    top: 68%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 8px 100px 15px 100px;
+    background-color: var( --color-bg-default);
 }
 
 
@@ -176,3 +205,93 @@
 .control {
     padding: 16px;
 }
+
+.burger {
+    display: none;
+}
+
+
+    @media (max-width: 768px) {
+
+.bool {
+    position: absolute;
+    left: 0px;
+    top: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 8px 50px 15px 50px;
+    background-color: var( --color-bg-default);
+}
+
+        .burger {
+            display: flex;
+            position:relative;
+            width: 24px; 
+            height: 24px;
+            color: var( --color-text-brand); 
+            }
+          
+          .burger::before, .burger::after {
+              content:'';
+              position: absolute;
+              width: 24px;
+              height: 1px;
+              background-color: currentColor;
+              border-radius: 1px;
+              transition: opacity 0.2s 0.1s, transform 0.2s 0.1s;
+            }
+          
+          .burger::before {
+              top: 4px;
+              right: 0;
+            }
+          
+          .burger::after {
+              bottom: 4px;
+              left: 0;
+            }
+          
+          .burger__middle-line {
+                width: 100%;
+                height: 1px;
+                position:absolute;
+                background-color: #000;
+                border-radius: 2px;
+                top: 50%;
+                transform: translatey(-50%);
+                transition: transform 0.2s 0.1s; 
+              }
+          
+          .burger__middle-line::before {
+                  content:'';
+                  position: absolute;
+                  width: 100%;
+                  height: 1px;
+                  background-color: var( --color-text-brand);
+                  border-radius: 1px;
+                  left:0;   
+                  transition: transform 0.2s 0.1s;
+            }
+          
+          .burger:hover::before {
+                opacity:0;
+                transform:translatex(50%);
+                transition-delay:0;
+              }
+          
+          .burger:hover::after {
+                opacity:0;
+                transform:translatex(-50%);
+                transition-delay:0;
+              }
+          
+          .burger:hover .burger__middle-line {
+                transform:translatey(-50%) rotate(-45deg);
+              }
+          
+          .burger:hover .burger__middle-line::before {
+                  transform:rotate(-90deg);
+                }
+        
+     }

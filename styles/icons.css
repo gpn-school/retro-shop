@@ -8,8 +8,8 @@
 }
 
 .icon_arrow_right::before {
-    background-color: var( --color-link-light);
-    height: 2px;
+    background-color: var( --color-text-secondary);
+    height: 1px;
     position: absolute;
     content: '';
     left: 0;
@@ -19,8 +19,8 @@
 }
 
 .icon_arrow_right::after {
-    border-right: 4px solid var( --color-link-light);
-    border-top: 4px solid var( --color-link-light);
+    border-right: 2px solid var(--color-text-secondary);
+    border-top: 2px solid var( --color-text-secondary);
     content: '';
     position: absolute;
     left: 0;

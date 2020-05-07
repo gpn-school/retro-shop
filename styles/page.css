@@ -26,7 +26,8 @@ section {
 
 @media (max-width: 768px) {
     .page__container {
-    padding: 0; 
+        padding: 0; 
+        height: 70vh;
     }
 
     .page__content {

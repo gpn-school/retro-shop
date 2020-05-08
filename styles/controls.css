@@ -204,11 +204,11 @@
     .product-info {
         position: absolute;
         left: 0px;
-        top: 90%;
+        top: 80%;
         display:flex;
         flex-direction: column;
         justify-content:center;
-        padding: 8px 50px 15px 50px;
+        padding: 2px 50px 9px 23px;
         background-color: var( --color-bg-default);
     }
 

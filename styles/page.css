@@ -9,6 +9,9 @@
     position: relative;
     margin: auto;
     padding: 50px 100px 50px 100px;
+    overflow: hidden;
+    box-sizing: border-box; 
+    height: 100vh;
 }
 
 .page__content {

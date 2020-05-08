@@ -2,3 +2,15 @@
     width: 100%;
     z-index: 2;
 }
+
+.product-image__image {
+    margin: auto;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .product-image__image {
+       max-height: 90%;
+    } 
+ }

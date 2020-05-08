@@ -1,92 +1,23 @@
 .info {
-    align-self: center;
-}
-
-.info__price {
-    margin-bottom: 24px;
-    white-space: nowrap;
-    font-size: var(--text-size-xl);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: auto;
 }
 
 .info__category {
-    margin-bottom: 24px;
-    padding-bottom: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
     border-bottom: 1px solid var(--color-border-secondary);
-    font-size: var(--text-size-s);
+    font-size: var( --text-size-2xs);
     text-transform: uppercase;
     letter-spacing: 3px;
     color: var(--color-text-secondary);
 }
 
-.info__model {
-    margin: 0;
-    margin-bottom: 24px;
-    font-size: var(--text-size-xl);
-    font-weight: bold;
-}
-
-.info__description {
-    margin: 0;
-    margin-bottom: 16px;
-    padding-right: 12px;
-    font-size: var(--text-size-s);
-    font-weight: 300;
-    line-height: 1.5;
-    color: var(--color-text-secondary);
-}
-
-.info__link {
-    margin-bottom: 32px;
-}
-
-.info__color {
-    margin-bottom: 48px;
-    margin-right: 12px;
-    font-size: var(--text-size-m);
-    color: var(--color-text-secondary);
-    letter-spacing: 2px;
-}
-
-.info__color-item {
-    -webkit-appearance: none;
-    width: 16px;
-    height: 16px;
-    border-radius: 99em;
-    margin-right: 12px;
-    box-sizing: content-box;
-}
-.info__color-item_1 {
-    background-color: #D4B5A3;
-}
-.info__color-item_2 {
-    background-color: #7A685C;
-}
-
-.info__color-item_checked {
-    box-shadow: 0px 0px 0px 5px #fff, 0px 0px 0px 6px var(--color-border-secondary);
-}
-
-
 @media (max-width: 768px) {
+
     .info {
-        padding: 60px 20px;
-  
+        display: block;
     }
 
-    .info__category {
-        padding: 0;
-        margin-bottom: 20px;
-        border:none;
-    }
-    .info__model {
-        margin-bottom: 16px;
-    }
-
-    .info__description {
-        margin-bottom: 8px;
-    }
-
-    .info__favourite {
-        display: none;
-    }
 }

@@ -1,3 +1,35 @@
 .icon svg {
    color: var(--color-text-brand); 
 }
+
+.icon_size_s {
+    width: 16px;
+    height: 16px;
+}
+
+.icon_arrow_right {
+    position: relative;
+}
+
+.icon_arrow_right::before {
+    background-color: var( --color-text-secondary);
+    height: 1px;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon_arrow_right::after {
+    border-right: 2px solid var(--color-text-secondary);
+    border-top: 2px solid var( --color-text-secondary);
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transform: translateX(3px) rotate(45deg) scale(0.5);
+}

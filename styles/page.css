@@ -1,37 +1,33 @@
 .page {
     margin: 0;
     padding: 0;
-    background-color: var( --color-bg-brand-dark);
+    background-color: var(--color-bg-brand-dark);
     font-family: var(--font);
 }
 
 .page__container {
     position: relative;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
     margin: auto;
     padding: 50px 100px 50px 100px;
-    overflow: hidden;
-    box-sizing: border-box; 
-    height: 100vh;
 }
 
 .page__content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 85vh;
 }
-
 
 @media (max-width: 768px) {
 
     .page__container {
-     padding: 0; 
-     overflow: visible;
+        padding: 0px 23px 0px 23px; 
     }
 
     .page__content {
         display: flex;
-        flex-direction: column-reverse;
+        align-items: center;
+        flex-direction: column-reverse;  
+        height: fit-content;
     }
 
 }

@@ -1,19 +1,180 @@
-.button {
-    display: inline-flex;
-    justify-content: center;
-    box-sizing: border-box;
-    border: none;
-    background: none;
-}
-
-.button_icon_m {
-    height:40px;
-    width:40px;
-}
-
-.link_dashed {
-    color:var(--color-link-light);
+.link {
     text-decoration: none;
+    font-size: var(--text-size-s);
+}
+
+.link:hover {
+    color: var(--color-link-hover);
+}
+
+.link_view_primary {
+    color: var(--color-link-dark);
+}
+
+.link_medium {
+    font-weight: 500;
+}
+
+.link_underlined {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.link_secondary {
+    color: var(--color-link-light);
+}
+
+.link_secondary_dashed {
+    color: var(--color-link-light);
     border-bottom: 1px dashed var(--color-link-light);
     font-size: var(--text-size-m);
 }
+
+.link_secondary_dashed:hover {
+    border-bottom: 1px dashed var(--color-link-hover);
+}
+
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    font-weight: 500;
+}
+
+.button_view_primary {
+    background-color: var(--color-control-bg);
+}
+
+.button_view_seconadary {
+    color: var(--color-control-text);
+}
+
+.button_view_seconadary:hover {
+    color: var(--color-control-hover)
+}
+
+.button_size_xs {
+    font-size: var(--text-size-xs);
+}
+
+.button_size_s {
+    font-size: var(--text-size-m);
+}
+
+.button_size_m {
+    font-size: var(--text-size-l);
+}
+
+.button_only-icon {
+
+}
+
+.button_only-icon-xs {
+    width:12px;
+    height:12px;
+}
+
+.button__circle {
+    border-radius:99em;
+    background-color: var(--color-control-bg);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.button__circle_m {
+    width:32px;
+    height:32px;
+}
+.button__circle_s {
+    width:18px;
+    height:18px;
+}
+.button__circle_border {
+    box-shadow: 0px 0px 0px 10px var(--color-control-bg-substrate);
+}
+
+.button__icon {
+
+}
+
+.button__icon_right {
+    margin-left: 8px;
+}
+
+.button__icon_left {
+    
+}
+
+.button__label {
+
+}
+
+.button__label_right {
+    margin-left: 16px;
+}
+.button__label_left {
+    margin-right: 8px;
+}
+
+.button__plus_s {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    color: var(--color-bg-default);
+}
+
+.button__plus_s::before, .button__plus_s::after {
+    content:'';
+    position: absolute;
+    width: 8px;
+    height: 1px;
+    background-color: currentColor;
+}
+    
+.button__plus_s::before {
+    top: 50%;
+    left: calc(50% - 4px);  
+ }
+
+.button__plus_s::after {
+    top: 50%;
+    left: calc(50% - 4px);
+    transform: rotate(-90deg);
+}
+    
+.button__plus_m {
+    position: relative;
+    width: 20px; 
+    height: 20px;
+    color: var(--color-bg-default);
+}
+    
+.button__plus_m::before, .button__plus_m::after {
+    content:'';
+    position: absolute;
+    width: 16px;
+    height: 1px;
+    background-color: currentColor;
+}
+        
+.button__plus_m::before {
+    top: 50%;
+    left: calc(50% - 8px); 
+}
+
+.button__plus_m::after {
+    top: 50%;
+    left: calc(50% - 8px);
+    transform: rotate(-90deg);
+}
+
+.control {
+    padding: 16px;
+}
+  
+

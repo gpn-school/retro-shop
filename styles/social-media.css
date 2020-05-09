@@ -6,14 +6,16 @@
     display:flex;
     justify-content:center;
     transform:rotate(90deg);
-    
 }
 
 .social-media__item:not(:last-child) {
     margin-right:12px;
   }
-  @media (max-width: 768px) {
-     .social-media {
-        display: none;
-     } 
+
+@media (max-width: 768px) {
+
+   .social-media {
+      display: none;
+   } 
+
   }

@@ -37,6 +37,13 @@
     
 }
 
+.cataloge__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+
+
 .brand-name {
     font-size: var(--text-size-m);
     font-weight: bold;

@@ -29,6 +29,7 @@
     background-color: #fff;
 }
 
+
 @media (max-width: 768px) {
     .page__container {
      padding: 0; 

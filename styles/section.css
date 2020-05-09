@@ -1,7 +1,3 @@
-.section {
-
-}
-
 
 .section_flex {
     display: flex;
@@ -12,6 +8,12 @@
 .section_flex-start {
     display: flex;
     justify-content: flex-start;
+}
+
+.cataloge__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
 }
 
 @media (max-width: 768px) {

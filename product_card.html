@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/theme.css">
+    <link rel="stylesheet" href="./styles/controls.css">
+    <link rel="stylesheet" href="./styles/icons.css">
     <link rel="stylesheet" href="./styles/page.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/product-image.css">
-    <link rel="stylesheet" href="./styles/image.css">
     <link rel="stylesheet" href="./styles/social-media.css">
-    <link rel="stylesheet" href="./styles/controls.css">
     <link rel="stylesheet" href="./styles/section.css">
     <link rel="stylesheet" href="./styles/info.css">
-    <link rel="stylesheet" href="./styles/theme.css">
     <title>product_card</title>
 </head>
 <body class="page theme"> 
@@ -33,49 +34,55 @@
             </div>
             <button class="button button_icon button_icon_m"><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="24" height="24" viewBox="0 0 24 24"><path d="M8.11 6.7l-.71-.71L1.39 12l6.01 6.01.71-.71-4.8-4.8H23v-1H3.31l4.8-4.8z"/></svg></button>
         </header> -->
-        <div class="section section_flex">
-            <button class="button button_icon button_icon_m"><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="24" height="24" viewBox="0 0 24 24"><path d="M8.11 6.7l-.71-.71L1.39 12l6.01 6.01.71-.71-4.8-4.8H23v-1H3.31l4.8-4.8z"/></svg></button> 
-            <button class="button button_icon favourite favourite_checked"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=""><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></button>
+        <div class="section section_controls">
+            <button class="button button_icon-only icon"><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="24" height="24" viewBox="0 0 24 24"><path d="M8.11 6.7l-.71-.71L1.39 12l6.01 6.01.71-.71-4.8-4.8H23v-1H3.31l4.8-4.8z"/></svg></button> 
+            <button class="button button_icon-only button_icon-only_s icon section-controls__favourite"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=""><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></button>
         </div>
         <section class="page__content">
             <div class="info">
                 <div class="info__category">Radio</div>
                 <div class="section section_flex">
-                    <div class="section">
+                    <div class="section_info">
                         <h1 class="info__model">Monica F5</h1>
-                        <p class="info__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae iure unde error totam distinctio quasi provident inventore atque asperiores nesciunt.</p>
+                        <p class="info__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores, voluptatum eos accusantium, hic maiores in voluptas temporibus dolorum repudiandae voluptate et saepe, eum aliquam atque blanditiis laboriosam maxime officiis.</p>
                     </div>
-                    <div class="section">
-                        <div class="info__price">7100 ₽</div>
-                        <button class="button button_icon favourite favourite_checked"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="heart"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></button>
+                    <div class="section section_price">
+                        <div class="info__price">7 100 ₽</div>
+                        <button class="button button_icon-only button_icon-only_s info__favourite icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=""><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></button>
                     </div>
                 </div> 
                 <div class="info__link">
-                    <a href="#" class="link link_dashed">Характеристики</a>
+                    <a href="#" class="link link_secondary_dashed">Характеристики</a>
                 </div>
                     
                 <div class="section section_flex-start">
-                    <span class="info__color">Цвет</span>
-                    <div class="info__color-item info__color-item_1 info__color-item_checked"></div>
-                    <div class="info__color-item info__color-item_2"></div>
+                    <label class="info__color" for="color">Цвет:</label>
+                    <input class="info__color-item info__color-item_1 info__color-item_checked" type="radio" name="radio" value="1" checked> 
+                    <input class="info__color-item info__color-item_2" type="radio" name="radio" value="2"> 
                 </div>
-                <label class="button-label">
-                    <button class="button button_size_l button_view_primary button_form_round">
-                      <div class="button button_plus">
-                      </div>
-                    </button>
-                    В корзину
-                  </label>
+                <button class="button button_size_m button_view_seconadary">
+                    <div class="button__circle button__circle_border button__circle_m">
+                        <div class="button__plus_m">
+                        </div>
+                    </div>
+                    <span class="button__label button__label_right">В корзину</span>
+                </button>
             </div>
             <div class="product-image">
                 <img src="./images/radio_2.png" alt="" class="product-image__image">
-                <div class="product-image__points"></div>
+                <div class="product-image__dots">
+                    <div class="product-image__dots-item product-image__dots-item_ckecked"></div>
+                    <div class="product-image__dots-item"></div>
+                    <div class="product-image__dots-item"></div>
+                    <div class="product-image__dots-item"></div>
+                    <div class="product-image__dots-item"></div>
+                </div>
             </div>
             
             <div class="social-media">
-                <a href="#" class="social-media__item link">Facebook</a>
-                <a href="#" class="social-media__item">Instagram</a>
-                <a href="#" class="social-media__item">Twitter</a>
+                <a href="#" class="social-media__item link link_view_primary link_medium">Facebook</a>
+                <a href="#" class="social-media__item link link_view_primary link_medium">Instagram</a>
+                <a href="#" class="social-media__item link link_view_primary link_medium">Twitter</a>
             </div>
         </section>
     </div>

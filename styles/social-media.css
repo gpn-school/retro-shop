@@ -1,21 +1,25 @@
 .social-media {
     position: absolute;
-    right:100px;
-    top:50%;
-    width:0;
-    display:flex;
-    justify-content:center;
-    transform:rotate(90deg);
+    right: 100px;
+    top: 50%;
+    width: 0;
+    display: flex;
+    justify-content: center;
+    transform: rotate(90deg);
 }
 
 .social-media__item:not(:last-child) {
-    margin-right:12px;
-  }
+    margin-right: 12px;
+}
 
 @media (max-width: 768px) {
 
-   .social-media {
-      display: none;
-   } 
-
-  }
+    .social-media {
+        right: 23px;
+        top: 30%;
+        width: 0;
+        display: flex;
+        justify-content: center;
+        transform: rotate(90deg);
+    }
+}

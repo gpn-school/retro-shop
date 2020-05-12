@@ -1,14 +1,12 @@
 .page {
     margin: 0;
     padding: 0;
-    background-color: #EBF1FA;
+    background-color: var(--color-bg-brand-dark);
     font-family: var(--font);
 }
 
 .page__container {
     position: relative;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
     margin: auto;
     padding: 50px 100px 50px 100px;
     overflow: hidden;
@@ -18,33 +16,21 @@
 
 .page__content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.page__circle {
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 115%;
-    height: 200%;
-    z-index: -1; 
-    border-radius: 50%;
-    background-color: #fff;
+    grid-template-columns: 1fr 1fr;
+    height: 85vh;
 }
 
 @media (max-width: 768px) {
 
     .page__container {
-     padding: 0; 
-     overflow: visible;
+        padding: 0px 23px 0px 23px; 
     }
 
     .page__content {
         display: flex;
-        flex-direction: column-reverse;
+        align-items: center;
+        flex-direction: column-reverse;  
+        height: fit-content;
     }
 
-    .page__circle {
-        display: none;
-    }
 }

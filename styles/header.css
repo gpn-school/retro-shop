@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 18px;
+    /*padding: 24px 18px;*/
     background: transparent;
 }
 
@@ -52,12 +52,12 @@
     .menu__list {
         padding: 0;
         margin: 0;
-        // margin-right: 24px;
+        /*margin-right: 24px;*/
         display: flex;
         align-items: center;
         list-style-type: none;
     }
-    .header {
+   .header {
         padding: 24px 0px;
     }
 }

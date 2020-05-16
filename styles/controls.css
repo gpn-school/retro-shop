@@ -87,10 +87,10 @@ button:focus {
     background: var(--color-control-bg-secondary-hover);
 }
 
-// .button_only-icon-xs {
-//     width:16px;
-//     height:16px;
-// }
+/*.button_only-icon-xs {
+    width:16px;
+    height:16px;
+ }*/
 
 .button_only-icon-s {
     width:40px;

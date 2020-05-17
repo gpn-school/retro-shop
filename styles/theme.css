@@ -27,6 +27,7 @@
     --color-control-bg: rgba(43,125,61,1);
     --color-control-bg-substrate: rgba(43,125,61,0.12);
     --color-control-hover: #329748;
+    --color-control-bg-secondary-hover: rgba(49,81,130,0.05);
     
     --color-border-brand: #2B7D3D;
     --color-border-secondary: #AFAFAF;
